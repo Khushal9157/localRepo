@@ -1,5 +1,5 @@
 def dot_product(vector1, vector2):
-    return sum(a * b for a, b in zip(vector1, vector2))+1
+    return sum(a * b for a, b in zip(vector1, vector2))+15
 
 if __name__ == "__main__":
     v1 = list(map(int, input("Enter elements of the first vector (space-separated): ").split()))
