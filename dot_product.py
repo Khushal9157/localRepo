@@ -6,4 +6,5 @@ if __name__ == "__main__":
     v2 = list(map(int, input("Enter elements of the second vector (space-separated): ").split()))
     result = dot_product(v1, v2)
     print(f"The dot product of the vectors is: {result}")
+#changes
 
